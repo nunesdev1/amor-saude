@@ -7,7 +7,7 @@
     <title>AmorSaúde Ilha do Governador – Medicina, Odontologia e Exames</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
-        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=Nunito:wght@400;600;700&family=Plus+Jakarta+Sans:wght@700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap"
         rel="stylesheet">
     <style>
         :root {
@@ -809,7 +809,7 @@
             border-radius: 30px;
             padding: 48px;
             display: grid;
-            grid-template-columns: 1.1fr .9fr;
+            grid-template-columns: 1.05fr .95fr;
             gap: 48px;
             align-items: center
         }
@@ -827,15 +827,20 @@
 
         .cc {
             border-radius: 26px;
-            padding: 34px;
+            padding: 0;
             color: #fff;
-            background: linear-gradient(135deg, #0fb71f, #31ce2c);
-            min-height: 290px;
+            background: transparent;
+            min-height: 0;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             gap: 20px;
-            box-shadow: 0 24px 44px -26px rgba(11, 114, 133, .7)
+            
+        }
+        .cc img{
+            width: 100%;
+            height: auto;
+            border-radius: 26px;
         }
 
         .cc b {
@@ -850,7 +855,7 @@
         }
 
         .cc .pr {
-            font: 700 clamp(48px, 6vw, 66px) "Plus Jakarta Sans", Inter, sans-serif;
+            font: 700 clamp(48px, 6vw, 66px) "Baloo 2", sans-serif;
             line-height: 1
         }
 
@@ -1019,8 +1024,8 @@
             }
 
             .cc {
-                padding: 26px;
-                min-height: 240px
+                padding: 0;
+                min-height: 0
             }
         }
 
@@ -1171,18 +1176,18 @@
     </svg>
     <div class="top">
         <div class="w"><span><a href="tel:+552120384757">Ligação (21) 2038-4757</a> &nbsp;·&nbsp; <a
-                    href="https://wa.me/552199944-9717">WhatsApp (21) 99944-9717</a></span><span class="ad">Rua Iaco, 85
+                    href="https://wa.me/5521999449717">WhatsApp (21) 99944-9717</a></span><span class="ad">Rua Iaco, 85
                 – Ilha do Governador, RJ</span></div>
     </div>
     <header>
         <div class="w">
             <a href="#inicio" aria-label="AmorSaúde"><img class="lg" src="logo.jpg"
                     alt="AmorSaúde – Medicina, Odontologia e Exames"></a>
-            <nav id="nav"><a href="#inicio">Início</a><a href="#especialidades">Especialidades</a><a
-                    href="#odontopediatria">Odontopediatria</a><a href="#planos">Planos</a><a
-                    href="#cartao">Cartão</a><a href="#depoimentos">Depoimentos</a><a href="#faq">FAQ</a><a
+            <nav id="nav"><a href="#inicio">Início</a><a href="#especialidades">Medicina</a><a
+                    href="#odontologia">Odontologia</a><a href="#planos">Planos</a><a href="#parceria">FAB</a><a
+                    href="#cartao">Cartão de todos</a><a href="#depoimentos">Depoimentos</a><a
                     href="#contato">Contato</a></nav>
-            <a class="btn" href="https://wa.me/552199944-9717?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta."
+            <a class="btn" href="https://wa.me/5521999449717?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta."
                 target="_blank" rel="noopener">Agendar</a>
             <button class="burger" id="bg" aria-label="Abrir menu" aria-expanded="false"><svg width="28" height="28"
                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
@@ -1201,9 +1206,8 @@
                 <p>Família que se ama, cuida com AmorSaúde. Atendimento de qualidade e preço justo na Ilha do
                     Governador.</p>
                 <div class="acts"><a class="btn"
-                        href="https://wa.me/552199944-9717?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta."
-                        target="_blank" rel="noopener">Agendar pelo WhatsApp</a><a class="btn ghost" href="#planos">Ver
-                        planos odontológicos</a></div>
+                        href="https://wa.me/5521999449717?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta."
+                        target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
             </div>
             <div class="hdots" id="hd"></div>
         </section>
@@ -1231,31 +1235,29 @@
             </div>
         </section>
 
-        <section class="ped" id="odontopediatria">
+        <section class="ped" id="odontologia">
             <div class="w">
-                <img class="ph" src="pediatra-criança.jpg" alt="Criança em atendimento odontopediátrico">
-                <div><span class="kick">Odontopediatria</span>
-                    <h2>O sorriso do seu filho em boas mãos</h2>
-                    <p style="margin:16px 0 0">A odontopediatria é a especialidade da odontologia dedicada à saúde bucal
-                        de bebês, crianças e adolescentes. Com paciência e um atendimento acolhedor, nossa equipe
-                        transforma a ida ao dentista em uma experiência tranquila.</p>
+                <img class="ph" src="doutor.jpeg" alt="Atendimento odontológico na AmorSaúde">
+                <div><span class="kick">Odontologia</span>
+                    <h2>Um sorriso saudável começa aqui</h2>
+                    <p style="margin:16px 0 0">Cuidar da saúde bucal vai além do sorriso bonito. Nossa equipe de dentistas oferece tratamentos completos, com tecnologia moderna e atendimento acolhedor, da prevenção aos procedimentos mais especializados.</p>
                     <ul class="ck">
                         <li><svg width="22" height="22">
                                 <use href="#ok" />
-                            </svg>Primeira consulta a partir do nascimento dos primeiros dentes</li>
+                            </svg>Avaliação completa, limpeza e remoção de tártaro</li>
                         <li><svg width="22" height="22">
                                 <use href="#ok" />
-                            </svg>Prevenção de cáries com limpeza e aplicação de flúor</li>
+                            </svg>Canal, restaurações e extração de siso</li>
                         <li><svg width="22" height="22">
                                 <use href="#ok" />
-                            </svg>Orientação aos pais sobre escovação e alimentação</li>
+                            </svg>Clareamento, facetas e próteses para um sorriso harmonioso</li>
                         <li><svg width="22" height="22">
                                 <use href="#ok" />
-                            </svg>Acompanhamento do crescimento e da troca dos dentes</li>
+                            </svg>Ortodontia e implantes com acompanhamento profissional</li>
                     </ul>
                     <a class="btn"
-                        href="https://wa.me/552199944-9717?text=Ol%C3%A1!%20Quero%20agendar%20uma%20avalia%C3%A7%C3%A3o%20infantil."
-                        target="_blank" rel="noopener">Agendar avaliação infantil</a>
+                        href="https://wa.me/5521973363841?text=Ol%C3%A1!%20Quero%20agendar%20uma%20avalia%C3%A7%C3%A3o%20odontol%C3%B3gica."
+                        target="_blank" rel="noopener">Agendar avaliação odontológica</a>
                 </div>
             </div>
         </section>
@@ -1367,18 +1369,18 @@
             </div>
         </section>
 
-        <section class="par" style="padding-top:0">
+        <section class="par" id="parceria" style="padding-top:0">
             <div class="w">
                 <div class="box">
-                    <div><span class="kick">Parceria</span>
+                    <div><span class="kick">FAB</span>
                         <h2>Mais cuidado para quem serve o Brasil</h2>
                         <p>Militares da Força Aérea Brasileira (FAB) e seus familiares contam com planos odontológicos
                             AmorSaúde a partir de R$ 17,00 por mês, com cobertura ampla e atendimento de qualidade.</p>
                         <a class="btn out"
                             href="https://wa.me/5521973363841?text=Sou%20militar%20da%20FAB%20e%20quero%20saber%20mais%20sobre%20os%20planos."
-                            target="_blank" rel="noopener">Saiba mais</a>
+                            target="_blank" rel="noopener">Garanta seu atendimento exclusivo</a>
                     </div>
-                    <img class="bn" src="parceria.png"
+                    <img class="bn" src="fab.jpeg"
                         alt="Comunicado: planos odontológicos AmorSaúde para militares da FAB a partir de R$ 17,00 por mês">
                 </div>
             </div>
@@ -1389,8 +1391,7 @@
                 <div class="box">
                     <div><span class="kick">Cartão de Benefícios</span>
                         <h2>Descontos para você e sua família</h2>
-                        <p>Com o Cartão de Todos você garante valores mais acessíveis em consultas, exames e tratamentos
-                            odontológicos, sem carência e sem burocracia.</p>
+                        <p>Com o Cartão de Todos você garante na Clínica Amor Saúde valores mais acessíveis em consultas, exames e tratamentos odontológicos, sem carência e sem burocracia.</p>
                         <ul class="ck">
                             <li><svg width="22" height="22">
                                     <use href="#ok" />
@@ -1405,16 +1406,11 @@
                                     <use href="#ok" />
                                 </svg>Ativação no mesmo dia</li>
                         </ul>
-                        <a class="btn" href="https://wa.me/5521973363841?text=Quero%20meu%20cart%C3%A3o%20de%20todos"
+                        <a class="btn" href="https://wa.me/5521999449717?text=Quero%20meu%20cart%C3%A3o%20de%20todos"
                             target="_blank" rel="noopener">Quero meu cartão</a>
                     </div>
-                    <div class="cc"><svg width="42" height="42">
-                            <use href="#plus" />
-                        </svg>
-                        <div><small>Cartão de Benefícios</small><b>Cartão de todos</b></div>
-                        <div><small>Consultas a partir de</small>
-                            <div class="pr">R$ 40</div>
-                        </div>
+                    <div class="cc">
+                        <img src="./cartao.png" alt="">
                     </div>
                 </div>
             </div>
@@ -1424,7 +1420,7 @@
             <div class="w">
                 <div class="head"><span class="kick">Depoimentos</span>
                     <h2>Quem já foi atendido recomenda</h2>
-                    <p>Avaliação média 4,9 no Google com centenas de pacientes atendidos.</p>
+                    <p>Avaliação média 4,0 no Google com centenas de pacientes atendidos.</p>
                 </div>
                 <div class="car">
                     <div class="vp tvp" id="tvp">
@@ -1468,12 +1464,12 @@
                     <span class="kick">Ainda tem dúvidas?</span>
                     <h2>A gente ajuda você <span>a encontrar o que precisa.</span></h2>
                     <p class="lead">Reunimos algumas informações práticas para facilitar seu atendimento.</p>
-                    <a class="btn" href="https://wa.me/5521973363841?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20a%20equipe." target="_blank" rel="noopener">Falar com a equipe <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                    <a class="btn" href="https://wa.me/5521999449717?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20a%20equipe." target="_blank" rel="noopener">Falar com a equipe <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
                 </div>
                 <div class="fq">
                     <details>
                         <summary>Como faço para agendar uma consulta?</summary>
-                        <p>Pelo WhatsApp (21) 97336-3841 ou pelo telefone (21) 2038-4757. Basta informar a especialidade e o melhor dia para você.</p>
+                        <p>Pelo WhatsApp (21) 99944-9717 (medicina) ou (21) 97336-3841 (odontologia), ou pelo telefone (21) 2038-4757. Basta informar a especialidade e o melhor dia para você.</p>
                     </details>
                     <details>
                         <summary>Onde fica a unidade?</summary>
@@ -1485,7 +1481,7 @@
                     </details>
                     <details>
                         <summary>Como sei se um exame está disponível?</summary>
-                        <p>Fale com a nossa equipe pelo WhatsApp (21) 97336-3841 ou pelo telefone (21) 2038-4757 e confirmamos a disponibilidade do exame que você precisa.</p>
+                        <p>Fale com a nossa equipe pelo WhatsApp (21) 99944-9717 ou pelo telefone (21) 2038-4757 e confirmamos a disponibilidade do exame que você precisa.</p>
                     </details>
                 </div>
             </div>
@@ -1515,11 +1511,16 @@
                             <div class="ic"><svg width="24" height="24">
                                     <use href="#plus" />
                                 </svg></div>
-                            <div><b>WhatsApp</b><a href="https://wa.me/5521973363841" target="_blank"
-                                    rel="noopener">(21) 97336-3841</a></div>
+                            <div><b>WhatsApp Medicina</b><a href="https://wa.me/5521999449717" target="_blank" rel="noopener">(21) 99944-9717</a></div>
+                        </div>
+                        <div class="it">
+                            <div class="ic"><svg width="24" height="24">
+                                    <use href="#plus" />
+                                </svg></div>
+                            <div><b>WhatsApp Odontologia</b><a href="https://wa.me/5521973363841" target="_blank" rel="noopener">(21) 97336-3841</a></div>
                         </div>
                         <a class="btn" style="justify-self:start"
-                            href="https://wa.me/5521973363841?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta."
+                            href="https://wa.me/5521999449717?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta."
                             target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
                     </div>
                     <div class="map"><iframe title="Mapa da AmorSaúde" loading="lazy"
@@ -1555,8 +1556,8 @@
                     <h4>Contato</h4>
                     <ul>
                         <li><a href="tel:+552120384757">(21) 2038-4757</a></li>
-                        <li><a href="https://wa.me/5521973363841" target="_blank" rel="noopener">WhatsApp (21)
-                                97336-3841</a></li>
+                        <li><a href="https://wa.me/5521999449717" target="_blank" rel="noopener">WhatsApp Medicina (21) 99944-9717</a></li>
+                        <li><a href="https://wa.me/5521973363841" target="_blank" rel="noopener">WhatsApp Odontologia (21) 97336-3841</a></li>
                         <li>Rua Iaco, 85 – Ilha do Governador, RJ</li>
                     </ul>
                 </div>
@@ -1572,7 +1573,7 @@
                     de Janeiro</span></div>
         </div>
     </footer>
-    <a class="fab" href="https://wa.me/5521973363841?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta."
+    <a class="fab" href="https://wa.me/5521999449717?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta."
         target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp"><svg width="30" height="30" viewBox="0 0 24 24"
             fill="currentColor">
             <path
@@ -1581,9 +1582,9 @@
 
     <script>
         (function () {
-            var W = "https://wa.me/5521973363841?text=";
+            var W = "https://wa.me/5521999449717?text=", WD = "https://wa.me/5521973363841?text="; function wa(n) { return n === "Odontologia" ? WD : W }
             var S = [["Clínico Geral", "Avaliação completa da sua saúde e encaminhamentos."], ["Cardiologia", "Cuidado do coração com exames no mesmo local."], ["Pediatria", "Acompanhamento carinhoso do bebê ao adolescente."], ["Ginecologia", "Saúde da mulher em todas as fases."], ["Dermatologia", "Pele, cabelo e unhas com diagnóstico preciso."], ["Ortopedia", "Dores, lesões e recuperação de movimento."], ["Psiquiatria", "Saúde mental com acolhimento e sigilo."], ["Psicologia", "Terapia individual com escuta qualificada."], ["Neurologia", "Dores de cabeça, memória e sono."], ["Oftalmologia", "Exame de vista e saúde ocular."], ["Otorrinolaringologia", "Ouvido, nariz e garganta."], ["Endocrinologia", "Hormônios, tireoide e emagrecimento."], ["Urologia", "Saúde do homem e do trato urinário."], ["Nutrição", "Plano alimentar personalizado e realista."], ["Fisioterapia", "Reabilitação e alívio de dores."], ["Odontologia", "Sorriso saudável com tecnologia moderna."], ["Angiologia", "Cuidado com veias, artérias e circulação."], ["Neuropsicologia", "Avaliação de memória, atenção e aprendizagem."], ["Proctologia", "Saúde intestinal e do intestino grosso."], ["Clínica Médica", "Acompanhamento clínico completo do adulto."], ["Alergia e Imunologia", "Alergias respiratórias, de pele e imunidade."], ["Fonoaudiologia", "Fala, linguagem, voz e audição."], ["Gastroenterologia", "Saúde do aparelho digestivo e trato gastrointestinal."]];
-            function card(s) { return '<article class="sp"><div class="ic"><svg width="24" height="24"><use href="#plus"/></svg></div><h3>' + s[0] + '</h3><p>' + s[1] + '</p><div class="lk"><a href="' + W + encodeURIComponent("Olá! Quero agendar uma consulta de " + s[0] + ".") + '" target="_blank" rel="noopener">Agendar</a><a href="' + W + encodeURIComponent("Olá! Quero saber mais sobre " + s[0] + ".") + '" target="_blank" rel="noopener">Saiba mais</a></div></article>' }
+            function card(s) { return '<article class="sp"><div class="ic"><svg width="24" height="24"><use href="#plus"/></svg></div><h3>' + s[0] + '</h3><p>' + s[1] + '</p><div class="lk"><a href="' + wa(s[0]) + encodeURIComponent("Olá! Quero agendar uma consulta de " + s[0] + ".") + '" target="_blank" rel="noopener">Agendar</a><a href="' + wa(s[0]) + encodeURIComponent("Olá! Quero saber mais sobre " + s[0] + ".") + '" target="_blank" rel="noopener">Saiba mais</a></div></article>' }
             function mk(vp, dots, prev, next, count, step) {
                 function cur() { return Math.round(vp.scrollLeft / step()) }
                 dots.innerHTML = ''; dots.parentNode.style.display = count <= 1 ? 'none' : ''; for (var i = 0; i < count; i++) { (function (i) { var b = document.createElement('button'); b.setAttribute('aria-label', 'Ir para ' + (i + 1)); b.onclick = function () { vp.scrollTo({ left: i * step() }) }; dots.appendChild(b) })(i) }
